@@ -16,7 +16,8 @@ body{
     left:0px;
     top: 7vh;
     background-image: linear-gradient(to bottom, rgba(119, 189, 211, 0.705) 30%, rgb(224, 221, 207) 80%);
-    overflow: scroll;
+    overflow-y:auto;
+    overflow-x: hidden;
   }
 p{
   position: relative;
@@ -47,6 +48,7 @@ text-align: left;
   bottom: 0px;
   height: 3%;
 width:100%;
+padding:0 2.5% 0 5%;
 background-image: linear-gradient(to right, rgb(231, 195, 31) 30%, rgb(211, 92, 12) 80%);
 
 justify-content: center;
@@ -153,7 +155,7 @@ border: 1px solid rgba(0, 0, 0, 0.068);
   margin: 0px 5px;
 }
 .delete-buttons{
-  font-size: 86.7%;
+  font-size: 88.7%;
 
   background-color: rgba(219, 97, 97, 0.055);
   font-family: 'Anton', sans-serif;
@@ -164,7 +166,7 @@ position: relative;
 top: .05vh;
 }
 #reset-button{
-  font-size: 100%;
+  font-size: 90%;
   background-color: rgba(219, 97, 97, 0.055);
   font-family: 'Anton', sans-serif;
   font-weight: 100;
@@ -280,15 +282,14 @@ top:-1px;
       height: 7vh;
     }
     .delete-buttons{
-      font-size: 1.45rem;
+      font-size: 120%;
     }
     #countdown-container{
       display: block;
       width: 14%;
-      font-size: .5rem;
     }
     #reset-button{
-      font-size: 1.8rem;
+      font-size: 100%;
     }
   }
 
