@@ -343,3 +343,8 @@ top:-1px;
     }
     
   }
+  button:hover{
+    cursor: pointer;
+    background-color: rgba(85, 50, 50, 0.155);
+
+  }
