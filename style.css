@@ -182,7 +182,7 @@ width: 100%;
     }
   }
 
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 700px) and (orientation: portrait) {
     #header{
       font-size: 1.5rem;
     }
@@ -236,6 +236,42 @@ top:-1px;
       font-size: .96rem;
     }
   }
+
+  @media screen and (max-width: 700px) and (orientation: landscape) {
+    #main-container{
+      top:9vh;
+      height: 74vh;
+      
+    }
+    #inputs-container{
+      top: 5vh;
+    }
+    .text-inputs{
+      font-size: 2.8rem;
+      position: relative;
+      padding-bottom: 2px;
+    }
+    #input-date{
+      top:-1vh;
+      font-size: 1rem;
+    }
+    #planner-container{
+      top: -8vh;
+  
+    }
+    #header{
+      font-size: 2rem;
+      height: 7vh;
+    }
+    .delete-buttons{
+      font-size: 1.55rem;
+    }
+    #countdown-container{
+      width: 14%;
+      font-size: .5rem;
+    }
+  }
+
   @media screen and (max-width: 1000px) and (orientation: landscape){
     #main-container{
       top:9vh;
