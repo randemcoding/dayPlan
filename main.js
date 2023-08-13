@@ -116,12 +116,14 @@ deleteButtons.forEach(button => {
 })
 const resetButton = document.getElementById('reset-button');
 resetButton.addEventListener('click', function() {
-localStorage.clear();
+  
+localStorage.removeItem;
 textInputs.forEach(textInput => {
   textInput.style.animation = 'vanishAny 2s ease-out';
   setTimeout(() => {
     textInput.value = '';
     textInput.placeholderText = 'Free Time'
+    localStorage.removeItem(`text-${this.id}`);
   }, 2000);
 })
 })
