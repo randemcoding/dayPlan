@@ -5,12 +5,11 @@ let currentHour = 0
     let hours = date.getHours();
     let dayNight = ''
     currentHour = hours
-    console.log(hours)
     const mins = date.getMinutes();
     const secs = date.getSeconds();
     const upDate = date.toString().split(' ')
     let finalDate = upDate[0] + ', ' + upDate[1] + ' ' + upDate[2] + ', ' + upDate[3]
-    const inputDate = document.getElementById('input-date')
+    const inputDate = document.getElementById('footer')
     let secs2 = '';
     let mins2 = '';
     
